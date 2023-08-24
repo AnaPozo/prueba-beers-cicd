@@ -1,9 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreateBeerDto } from './dto/create-beer.dto';
-import { UpdateBeerDto } from './dto/update-beer.dto';
 import * as  data from '../../data/data.json';
 import { Beer } from './entities/beer.entity';
-import { ApiInternalServerErrorResponse } from '@nestjs/swagger';
 import { InternalServerErrorException } from '@nestjs/common/exceptions/internal-server-error.exception';
 
 @Injectable()
