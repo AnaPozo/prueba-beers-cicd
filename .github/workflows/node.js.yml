@@ -29,3 +29,8 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
+    - name: Get Joke Of The Day
+  # You may pin to the exact commit or the version.
+  # uses: h2floh/action-get-joke-of-the-day@3897b533e06d52c86ec1b273eee1a6ad555bfbe2
+      uses: h2floh/action-get-joke-of-the-day@v1
+    
